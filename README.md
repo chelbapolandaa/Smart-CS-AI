@@ -1,79 +1,108 @@
-🤖 Smart CS AI
+# 🤖 Smart CS AI
+
 <div align="center">
-*AI-Powered Customer Service dengan 96% Accuracy • Multi-Intent Detection • Real-time Processing*
 
-https://img.shields.io/badge/Python-3.9+-blue?logo=python
-https://img.shields.io/badge/FastAPI-0.104+-green?logo=fastapi
-https://img.shields.io/badge/Streamlit-1.28+-red?logo=streamlit
-https://img.shields.io/badge/Accuracy-96%2525-brightgreen
-https://img.shields.io/badge/License-MIT-yellow
 
-Revolutionizing customer service dengan AI canggih untuk klasifikasi intent dan resolusi multi-masalah dalam satu interaksi.
+*AI-Powered Customer Service dengan Akurasi 96% • Deteksi Multi-Intent • Pemrosesan Real-time*
 
-Demo • Installation • Features • API
+[![Python](https://img.shields.io/badge/Python-3.9+-3776AB?logo=python&logoColor=white)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.28+-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io)
+[![Accuracy](https://img.shields.io/badge/Accuracy-96%25-brightgreen)](https://github.com/chelbapolandaa/Smart-CS-AI)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+
+**Revolusi Customer Service** dengan kecerdasan buatan untuk klasifikasi intent dan resolusi multi-masalah dalam satu interaksi.
+
+[🚀 **Demo**](#-live-demo) • [📦 **Installasi**](#-quick-start) • [✨ **Fitur**](#-features) • [🔗 **API**](#-api-documentation)
 
 </div>
 
-🎯 Overview
-Smart CS AI adalah sistem customer service otomatis yang menggunakan machine learning untuk memahami dan merespons pertanyaan pelanggan dengan akurasi 96%. Sistem ini mampu mendeteksi 2-4 masalah sekaligus dan memberikan respons alami yang profesional.
+## 📋 Tentang Proyek
 
-✨ Highlights
-🎯 96% Accuracy - Klasifikasi intent terbaik di industri
+Smart CS AI adalah sistem customer service otomatis yang menggunakan **machine learning** untuk memahami dan merespons pertanyaan pelanggan dengan **akurasi 96%**. Sistem ini mampu mendeteksi **2-4 masalah sekaligus** dalam satu percakapan dan memberikan respons yang natural dan profesional.
 
-🔗 Multi-Intent Detection - Handle beberapa masalah sekaligus
+### 🎯 Keunggulan Utama
 
-🔍 Entity Extraction - Deteksi invoice, produk, urgency
+| Fitur | Deskripsi |
+|-------|-----------|
+| **🎯 Akurasi Tinggi** | 96% akurasi klasifikasi intent - terbaik di industri |
+| **🔗 Multi-Intent** | Deteksi 2-4 masalah berbeda dalam satu kalimat |
+| **🔍 Entity Recognition** | Ekstraksi otomatis: invoice, produk, tingkat urgensi |
+| **⚡ Real-time** | Respons dalam <1 detik |
+| **💬 Natural Language** | Respons dalam Bahasa Indonesia yang natural |
 
-⚡ Real-time - Response <1 detik
+## 🚀 Mulai Cepat
 
-💬 Natural Responses - Bahasa Indonesia yang natural
+### Prasyarat
+- **Python 3.9** atau lebih tinggi
+- **pip** package manager
+- **Virtual environment** (direkomendasikan)
 
-🚀 Quick Start
-Prerequisites
-Python 3.9+
-pip
+### 📥 Installasi
 
-Installation & Run
+```bash
 # 1. Clone repository
 git clone https://github.com/chelbapolandaa/Smart-CS-AI.git
 cd Smart-CS-AI
 
-# 2. Setup virtual environment
-python -m venv smart_cs_env
-source smart_cs_env/bin/activate  # Windows: .\smart_cs_env\Scripts\activate
+# 2. Buat virtual environment
+python -m venv smartcs_env
 
-# 3. Install dependencies
+# 3. Aktivasi virtual environment
+# Untuk Windows:
+smartcs_env\Scripts\activate
+# Untuk Linux/Mac:
+source smartcs_env/bin/activate
+
+# 4. Install dependencies
 pip install -r requirements.txt
 
-# 4. Jalankan Streamlit UI (Recommended)
+# 5. Jalankan aplikasi
+```
+## 🎮 Menjalankan Aplikasi
+### Opsi 1: Streamlit UI (Rekomendasi untuk Demo)
+```bash
 streamlit run streamlit_app.py
-# ➡️ Buka: http://localhost:8501
+```
+➡️ Akses di: http://localhost:8501
+### Opsi 2: FastAPI Backend
+```bash
+uvicorn app:app --reload --host 0.0.0.0 --port 8000
+```
+➡️ API Docs: http://localhost:8000/docs
 
-# 5. Atau jalankan API saja
-uvicorn app:app --reload
-# ➡️ API Docs: http://localhost:8000/docs
-
-🎮 Usage Examples
-Single Intent
+## 💡 Contoh Penggunaan
+### Single Intent
+```bash
 "status pesanan INV123456 belum update"
-"barang datang rusak parah"
+"barang datang rusak parah" 
 "cara return produk yang cacat"
 "kurir telat 3 jam"
 "ada diskon untuk member baru?"
+```
+### Multi-Intent (Advanced)
+```bash
+"pesanan telat dan barang rusak mau refund"
+→ Deteksi: tanya_status_pesanan, komplain_produk, minta_refund
 
-Multi-Intent (Advanced)
-"pesanan telat dan barang rusak mau refund" → 3 intents
-"produk cacat + kurir kasar + minta duit tambahan" → 3 intents  
-"status order gak update dan ada diskon ga?" → 2 intents
-"barang elektronik mati total mau klaim garansi" → 2 intents
+"produk cacat + kurir kasar + minta duit tambahan"  
+→ Deteksi: komplain_produk, komplain_kurir, minta_kompensasi
 
-📊 API Documentation
-Predict Endpoint
-curl -X POST "http://localhost:8000/predict" \
-  -H "Content-Type: application/json" \
-  -d "{\"text\": \"pesanan telat dan barang rusak parah\"}"
+"status order gak update dan ada diskon ga?"
+→ Deteksi: tanya_status_pesanan, tanya_promo
+```
 
+## 🔌 API Documentation
+### 📤 Endpoint Predict
+URL: POST /predict
+Request:
+```
+{
+  "text": "pesanan telat dan barang rusak parah"
+}
+```
 Response:
+```
 {
   "status": "success",
   "result": {
@@ -90,78 +119,74 @@ Response:
     "is_multi_intent": true
   }
 }
+```
+Contoh Penggunaan dengan cURL
+```
+curl -X POST "http://localhost:8000/predict" \
+  -H "Content-Type: application/json" \
+  -d '{"text": "pesanan saya telat dan barangnya rusak"}'
+```
 
-🏗️ System Architecture
-User Query 
-    ↓
-Streamlit UI (Frontend)
-    ↓
-FastAPI Backend
-    ↓
-Intent Classification (96% Accuracy)
-    ↓
-Multi-Intent Detection (2-4 Issues) 
-    ↓
-Entity Extraction (Invoice, Products, Urgency)
-    ↓
-Natural Response Generation
-    ↓
-Professional Response
+## 🏗️ Arsitektur Sistem
+```
+User Query (Input)
+        ↓
+Streamlit Frontend (UI)
+        ↓
+FastAPI Backend (REST API)
+        ↓
+Intent Classification Model (96% Accuracy)
+        ↓
+Multi-Intent Detection Engine  
+        ↓
+Entity Extraction Module
+        ↓
+Natural Language Generation
+        ↓
+Professional Response (Output)
+```
 
-🛠️ Tech Stack
-Backend & ML
+## 🛠️ Tech Stack
+### 🤖 Backend & Machine Learning
+FastAPI - Framework API high-performance
 
-FastAPI - High-performance API framework
+Scikit-learn - Algoritma machine learning
 
-Scikit-learn - Machine learning algorithms
+TF-IDF + Logistic Regression - Model dengan akurasi 96%
 
-TF-IDF + Logistic Regression - 96% accuracy model
+Pandas & NumPy - Data processing dan manipulasi
 
-Pandas & NumPy - Data processing
+Joblib - Model serialization
 
-Frontend
+### 🎨 Frontend
+Streamlit - Web interface yang interaktif
 
-Streamlit - Interactive web interface
+Plotly - Visualisasi data dan metrics
 
-Deployment
-
+### 🚀 Deployment
 Docker - Containerization
 
-Hugging Face Spaces - Free hosting
+Hugging Face Spaces - Free hosting platform
 
-🌐 Live Demo
-Experience the AI in action:
+## 🤝 Contribute
+Contribute are Very Welcome
 
-🔗 Hugging Face Spaces Demo
+Fork project ini
 
-Coba query kompleks seperti: "pesanan telat barang rusak mau refund dan kurir kasar"
+Buat feature branch (git checkout -b feature/FiturBaru)
 
-🤝 Contributing
-Contributions are welcome!
-Fork the project
-Create your feature branch (git checkout -b feature/AmazingFeature)
-Commit your changes (git commit -m 'Add AmazingFeature')
-Push to the branch (git push origin feature/AmazingFeature)
-Open a Pull Request
+Commit changes (git commit -m 'Menambah fitur baru')
 
-📄 License
-Distributed under the MIT License. See LICENSE for more information.
+Push ke branch (git push origin feature/FiturBaru)
 
-👨‍💻 Author
-Chelbapolandaa
+Buat Pull Request
+
+## 👨‍💻 Author
+Chelba Polanda
 
 GitHub: @chelbapolandaa
 
 Project: Smart-CS-AI
-
-🙏 Acknowledgments
-Scikit-learn team for excellent ML tools
-
-FastAPI for high-performance web framework
-
-Streamlit for rapid web app development
-
-Hugging Face for free model hosting
 
 <div align="center">
 ⭐ Don't forget to star this repository if you find it useful!
