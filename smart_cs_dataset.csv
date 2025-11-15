@@ -1,0 +1,395 @@
+text,intent
+pesanan saya belum sampai padahal sudah 5 hari,tanya_status_pesanan
+kapan kirim order #INV001234,tanya_status_pesanan
+tracking number tidak bisa dilacak,tanya_status_pesanan
+status pesanan masih processing padahal sudah bayar,tanya_status_pesanan
+kok lama banget dikirimnya,tanya_status_pesanan
+order saya sampai kapan dikirim,tanya_status_pesanan
+sudah 3 hari statusnya masih packing,tanya_status_pesanan
+pesanan #TRK567890 tidak update status,tanya_status_pesanan
+kapan barang saya sampai di jakarta,tanya_status_pesanan
+cek status pengiriman untuk order terbaru,tanya_status_pesanan
+barang sudah dikirim belum,tanya_status_pesanan
+estimasi sampai kapan pesanan saya,tanya_status_pesanan
+no resi invalid tidak bisa tracking,tanya_status_pesanan
+status shipped tapi tidak ada no resi,tanya_status_pesanan
+kok lama sampai nya sudah 1 minggu,tanya_status_pesanan
+pesanan tertunda kenapa ya,tanya_status_pesanan
+update status pesanan dong,tanya_status_pesanan
+barang stuck di sorting center,tanya_status_pesanan
+kapan dikirim pesanan saya,tanya_status_pesanan
+sudah bayar tapi status belum berubah,tanya_status_pesanan
+no resi tidak terbaca di jne,tanya_status_pesanan
+barang belum sampai juga,tanya_status_pesanan
+cek status untuk invoice 789012,tanya_status_pesanan
+pesanan delayed kenapa,tanya_status_pesanan
+kapan sampai di bandung,tanya_status_pesanan
+barang datang dalam kondisi rusak,komplain_produk
+warna tidak sesuai dengan gambar di website,komplain_produk
+size baju lebih kecil dari yang disebutkan,komplain_produk
+produk cacat dan tidak bisa dipakai,komplain_produk
+kualitas barang jelek tidak seperti deskripsi,komplain_produk
+barang palsu bukan original,komplain_produk
+beda sama foto yang di iklan,komplain_produk
+bahannya tipis banget tidak worth,komplain_produk
+warnanya fade tidak cerah,komplain_produk
+size tidak sesuai yang saya pesan,komplain_produk
+barang bekas padahal harusnya baru,komplain_produk
+ada bagian yang pecah saat datang,komplain_produk
+fungsi tidak bekerja dengan baik,komplain_produk
+missing part ada komponen yang kurang,komplain_produk
+kualitas jauh dari ekspektasi,komplain_produk
+barang tidak sama dengan deskripsi,komplain_produk
+warna beda sama yang dipesan,komplain_produk
+bahan mudah sobek kualitas rendah,komplain_produk
+elektronik tidak menyala,komplain_produk
+barang second tapi dijual baru,komplain_produk
+bagaimana cara return barang,tanya_pengembalian
+proses refund berapa lama,tanya_pengembalian
+syarat pengembalian produk apa saja,tanya_pengembalian
+uang refund sudah dikembalikan belum,tanya_pengembalian
+bisa tukar barang dengan size lain,tanya_pengembalian
+cara klaim garansi produk,tanya_pengembalian
+return tanpa box masih bisa,tanya_pengembalian
+biaya return ditanggung siapa,tanya_pengembalian
+deadline untuk return barang,tanya_pengembalian
+form return dimana carinya,tanya_pengembalian
+barang salah kirim mau return,tanya_pengembalian
+cara komplain untuk refund,tanya_pengembalian
+retur ditolak padahal sesuai syarat,tanya_pengembalian
+pengembalian dana ke rekening atau dompet,tanya_pengembalian
+batal pesanan bagaimana carinya,tanya_pengembalian
+barang rusak mau minta refund,tanya_pengembalian
+proses tukar barang berapa lama,tanya_pengembalian
+retur tanpa invoice bisa tidak,tanya_pengembalian
+cara cancel order yang sudah bayar,tanya_pengembalian
+money back guarantee berlaku berapa hari,tanya_pengembalian
+kurir tidak datang sesuai janji,komplain_kurir
+paket hilang sama kurir,komplain_kurir
+ongkos kirim terlalu mahal,komplain_kurir
+kurir kasar sama saya,komplain_kurir
+delivery fee tidak sesuai yang dihitung,komplain_kurir
+kurir tidak bawa uang kembalian,komplain_kurir
+paket dibanting sampai rusak,komplain_kurir
+kurir telat datang 3 jam,komplain_kurir
+tidak ada notifikasi sebelum delivery,komplain_kurir
+kurir tidak bisa bahasa indonesia,komplain_kurir
+alamat salah sampai ke tetangga,komplain_kurir
+kurir minta tambahan biaya,komplain_kurir
+paket ditinggal begitu saja di depan,komplain_kurir
+no hp kurir tidak bisa dihubungi,komplain_kurir
+kurir tidak mau antar ke lantai 3,komplain_kurir
+delivery same day tapi datang besok,komplain_kurir
+kurir tidak profesional,komplain_kurir
+paket tertukar dengan orang lain,komplain_kurir
+kurir tidak bawa barang pesanan,komplain_kurir
+janji datang jam 2 tapi jam 5 baru datang,komplain_kurir
+ada diskon untuk member baru,tanya_promosi
+voucher gratis ongkir masih berlaku,tanya_promosi
+bagaimana cara pakai kode promo,tanya_promosi
+minimal belanja berapa untuk gratis ongkir,tanya_promosi
+promo flash sale jam berapa,tanya_promosi
+kode promo tidak bisa dipakai,tanya_promosi
+ada cashback untuk pembelian pertama,tanya_promosi
+diskon 50% masih ada,tanya_promosi
+cara dapetin voucher belanja,tanya_promosi
+promo birthday discount untuk member,tanya_promosi
+minimal pembelian untuk diskon,tanya_promosi
+kupon undian berlaku sampai kapan,tanya_promosi
+ada promo bundle pembelian,tanya_promosi
+cashback langsung atau nanti,tanya_promosi
+diskon khusus weekend masih ada,tanya_promosi
+cara klaim promo referral,tanya_promosi
+point loyalty bisa ditukar apa,tanya_promosi
+promo buy 1 get 1 masih berlaku,tanya_promosi
+voucher expired padahal belum dipakai,tanya_promosi
+diskon member special berapa persen,tanya_promosi
+kapan pesanan saya dikirim,tanya_status_pesanan
+status order masih pending,tanya_status_pesanan
+order sudah diproses belum,tanya_status_pesanan
+no resi tidak valid,tanya_status_pesanan
+tracking gagal terus,tanya_status_pesanan
+pesanan delayed kenapa ya,tanya_status_pesanan
+sudah bayar tapi status belum update,tanya_status_pesanan
+kapan sampai di surabaya,tanya_status_pesanan
+barang belum dikirim kapan,tanya_status_pesanan
+status shipped sejak kapan,tanya_status_pesanan
+produk rusak saat diterima,komplain_produk
+barang tidak original,komplain_produk
+kualitas tidak sesuai harga,komplain_produk
+barang kadaluarsa,komplain_produk
+fungsi tidak bekerja,komplain_produk
+warna pudar tidak cerah,komplain_produk
+bahan kasar tidak nyaman,komplain_produk
+elektronik mati total,komplain_produk
+barang bekas pakai,komplain_produk
+kemasan rusak parah,komplain_produk
+mau retur bagaimana caranya,tanya_pengembalian
+refund uang kapan cair,tanya_pengembalian
+cara klaim garansi,tanya_pengembalian
+bisa tukar ukuran tidak,tanya_pengembalian
+proses pengembalian berapa lama,tanya_pengembalian
+form retur dimana,tanya_pengembalian
+barang salah kirim mau return,tanya_pengembalian
+cara cancel pesanan,tanya_pengembalian
+retur tanpa kardus bisa tidak,tanya_pengembalian
+deadline retur berapa hari,tanya_pengembalian
+driver tidak profesional,komplain_kurir
+ongkir kok mahal,komplain_kurir
+kurir tidak respon telepon,komplain_kurir
+paket ditinggal di pos satpam,komplain_kurir
+kurir minta uang tambahan,komplain_kurir
+delivery janji jam 10 tapi jam 2,komplain_kurir
+kurir tidak ramah,komplain_kurir
+alamat sampai salah,komplain_kurir
+paket hilang dalam pengiriman,komplain_kurir
+kurir tidak bawa kembalian,komplain_kurir
+promo hari ini apa,tanya_promosi
+voucher diskon masih berlaku,tanya_promosi
+ada cashback tidak,tanya_promosi
+diskon member berapa persen,tanya_promosi
+kode promo tidak bisa digunakan,tanya_promosi
+minimal belanja gratis ongkir,tanya_promosi
+cara dapetin voucher,tanya_promosi
+promo bundle masih ada,tanya_promosi
+point loyalty bisa ditukar apa,tanya_promosi
+diskon spesial hari apa,tanya_promosi
+order stuck di warehouse,tanya_status_pesanan
+kapan barang dikirim dari gudang,tanya_status_pesanan
+no tracking tidak bisa dilacak,tanya_status_pesanan
+status order masih preparing,tanya_status_pesanan
+sudah bayar tapi belum proses,tanya_status_pesanan
+pesanan belum dipacking juga,tanya_status_pesanan
+kapan sampai di jogja,tanya_status_pesanan
+resi tidak terbaca sistem,tanya_status_pesanan
+barang belum dikirim kapan ya,tanya_status_pesanan
+order delay kenapa sih,tanya_status_pesanan
+status shipped tapi belum ada resi,tanya_status_pesanan
+paket nyangkut di hub,tanya_status_pesanan
+kapan dikirim dari seller,tanya_status_pesanan
+order #INV789456 statusnya apa,tanya_status_pesanan
+tracking number invalid,tanya_status_pesanan
+barang belum sampai juga nih,tanya_status_pesanan
+pesanan tertahan di customs,tanya_status_pesanan
+kapan sampai di medan,tanya_status_pesanan
+status order masih on process,tanya_status_pesanan
+sudah lunas tapi status belum update,tanya_status_pesanan
+produk cacat saat datang,komplain_produk
+barang palsu kw,komplain_produk
+kualitas jelek banget,komplain_produk
+warna beda jauh sama foto,komplain_produk
+size tidak sesuai deskripsi,komplain_produk
+barang bekas bukan baru,komplain_produk
+fungsi tidak work,komplain_produk
+missing part tidak lengkap,komplain_produk
+kondisi fisik rusak,komplain_produk
+elektronik mati total,komplain_produk
+bahan mudah sobek,komplain_produk
+kualitas rendah tidak worth,komplain_produk
+barang expired kadaluarsa,komplain_produk
+kemasan penyok parah,komplain_produk
+accessory tidak included,komplain_produk
+performa tidak seperti deskripsi,komplain_produk
+bau tidak sedap,komplain_produk
+warna fade tidak cerah,komplain_produk
+barang second kondisi jelek,komplain_produk
+fitur tidak berfungsi,komplain_produk
+cara retur barang,tanya_pengembalian
+proses refund berapa lama,tanya_pengembalian
+syarat pengembalian apa saja,tanya_pengembalian
+uang kembali sudah masuk belum,tanya_pengembalian
+bisa tukar size tidak,tanya_pengembalian
+cara klaim garansi produk,tanya_pengembalian
+retur tanpa box bisa tidak,tanya_pengembalian
+biaya retur ditanggung siapa,tanya_pengembalian
+batas waktu retur berapa hari,tanya_pengembalian
+form retur dimana,tanya_pengembalian
+barang salah dikirim mau retur,tanya_pengembalian
+cara komplain dapat refund,tanya_pengembalian
+pengembalian dana ke mana,tanya_pengembalian
+batal beli bagaimana,tanya_pengembalian
+barang defect minta refund,tanya_pengembalian
+proses ganti barang berapa lama,tanya_pengembalian
+retur tanpa nota bisa tidak,tanya_pengembalian
+cancel order sudah bayar,tanya_pengembalian
+garansi uang kembali berapa hari,tanya_pengembalian
+kurir lambat banget,komplain_kurir
+ongkir mahal tidak wajar,komplain_kurir
+driver tidak profesional,komplain_kurir
+paket hilang sama kurir,komplain_kurir
+kurir tidak ramah,komplain_kurir
+delivery fee berbeda,komplain_kurir
+kurir tidak bawa kembalian,komplain_kurir
+paket dibanting-banting,komplain_kurir
+kurir telat hours,komplain_kurir
+tidak ada notifikasi delivery,komplain_kurir
+kurir bahasa tidak jelas,komplain_kurir
+alamat sampai wrong,komplain_kurir
+kurir minta biaya tambahan,komplain_kurir
+paket ditinggal depan pintu,komplain_kurir
+hp kurir tidak diangkat,komplain_kurir
+kurir tidak mau antar atas,komplain_kurir
+delivery janji siang datang malem,komplain_kurir
+kurir attitude kurang baik,komplain_kurir
+paket tertukar,komplain_kurir
+kurir tidak bawa pesanan,komplain_kurir
+janji setengah jam tapi satu jam,komplain_kurir
+promo apa hari ini,tanya_promosi
+voucher gratis ongkir masih ada,tanya_promosi
+ada diskon tidak,tanya_promosi
+cashback masih berlaku,tanya_promosi
+kode promo tidak bisa dipake,tanya_promosi
+minimal belanja gratis ongkir,tanya_promosi
+cara dapetin voucher,tanya_promosi
+diskon member berapa persen,tanya_promosi
+promo bundle masih available,tanya_promosi
+point loyalty bisa tukar apa,tanya_promosi
+diskon spesial hari apa,tanya_promosi
+flash sale jam berapa,tanya_promosi
+kupon undian masih berlaku,tanya_promosi
+ada promo buy 1 get 1,tanya_promosi
+cashback instant atau nanti,tanya_promosi
+diskon weekend masih ada,tanya_promosi
+cara pakai promo referral,tanya_promosi
+voucher expired padahal baru,tanya_promosi
+diskon khusus member berapa,tanya_promosi
+barang nyampE kpn?,tanya_status_pesanan
+produk gagal fungsi,komplain_produk
+gmn cara balikin barang?,tanya_pengembalian
+kurir lelet bgt,komplain_kurir
+ada promo gk?,tanya_promosi
+order #TRK123 gk bisa dilacak,tanya_status_pesanan
+barang KW palsu,komplain_produk
+mau refund gimana?,tanya_pengembalian
+driver nyasar2,komplain_kurir
+diskon besar2an ada?,tanya_promosi
+pesenan mentok di sorting,tanya_status_pesanan
+kualitas ampas,komplain_produk
+cara cancel barang,tanya_pengembalian
+kurir kasar bgt,komplain_kurir
+voucher diskon msh berlaku?,tanya_promosi
+status order masih verify,tanya_status_pesanan
+barang jelek kualitas,komplain_produk
+mau retur bisa?,tanya_pengembalian
+ongkir mahal bgt,komplain_kurir
+ada cashback gk?,tanya_promosi
+packing lama bgt,tanya_status_pesanan
+produk cacat manufacturing,komplain_produk
+uang kembali kapan?,tanya_pengembalian
+kurir gk nohpon,komplain_kurir
+promo hari ini apa aja?,tanya_promosi
+resi invalid,tanya_status_pesanan
+barang bekas pakai,komplain_produk
+klaim garansi gimana?,tanya_pengembalian
+driver telat janji,komplain_kurir
+minimal belanja dpt diskon?,tanya_promosi
+order stuck di proses,tanya_status_pesanan
+warna beda jauhh,komplain_produk
+batalin pesanan gimana?,tanya_pengembalian
+kurir gak ramah,komplain_kurir
+point bisa dituker apa?,tanya_promosi
+barang nyampe kapan nih?,tanya_status_pesanan
+fungsi rusak total,komplain_produk
+mau ganti barang bisa?,tanya_pengembalian
+delivery lama bgt,komplain_kurir
+ada promo member baru?,tanya_promosi
+status masih waiting payment,tanya_status_pesanan
+kondisi fisik penyok,komplain_produk
+proses retur lama?,tanya_pengembalian
+kurir minta duit tambahan,komplain_kurir
+voucher berlaku sampai kapan?,tanya_promosi
+tracking error terus,tanya_status_pesanan
+barang tidak original,komplain_produk
+refund lewat apa?,tanya_pengembalian
+kurir gak ngerti alamat,komplain_kurir
+diskon besar ada gak?,tanya_promosi
+order delay mulu,tanya_status_pesanan
+kualitas under expectation,komplain_produk
+cara komplain barang rusak,tanya_pengembalian
+driver ugal2an,komplain_kurir
+promo apa yg sedang berjalan?,tanya_promosi
+barang belum dikirim2,tanya_status_pesanan
+produk malfunction,komplain_produk
+retur tanpa kardus bisa?,tanya_pengembalian
+kurir gak profesional,komplain_kurir
+cashback berapa persen?,tanya_promosi
+pesenan lama gak sampai2,tanya_status_pesanan
+barang reject,komplain_produk
+batas waktu retur berapa?,tanya_pengembalian
+ongkir beda dari hitungan,komplain_kurir
+ada voucher gratis ongkir?,tanya_promosi
+status order masih review,tanya_status_pesanan
+kualitas jauh beda,komplain_produk
+cara pengembalian dana,tanya_pengembalian
+kurir gak datang2,komplain_kurir
+diskon khusus hari ini?,tanya_promosi
+no resi tidak ditemukan,tanya_status_pesanan
+barang cacat produksi,komplain_produk
+mau tukar warna bisa?,tanya_pengembalian
+driver gak respon,komplain_kurir
+promo terbaru apa?,tanya_promosi
+order tertahan di gudang,tanya_status_pesanan
+fungsi tidak optimal,komplain_produk
+proses refund bagaimana?,tanya_pengembalian
+kurir lambat sampe,komplain_kurir
+minimal pembelian dpt promo?,tanya_promosi
+barang delayed terus,tanya_status_pesanan
+kondisi tidak sempurna,komplain_produk
+cara retur online,tanya_pengembalian
+kurir salah alamat,komplain_kurir
+voucher diskon msh ada?,tanya_promosi
+status masih packing,tanya_status_pesanan
+kualitas rendah banget,komplain_produk
+mau refund sebagian,tanya_pengembalian
+kurir gak jemput2,komplain_kurir
+ada promo bundle?,tanya_promosi
+pesenan gak progress,tanya_status_pesanan
+barang tidak work,komplain_produk
+retur ditolak kenapa?,tanya_pengembalian
+driver gak capable,komplain_kurir
+point membership bisa apa?,tanya_promosi
+order stuck di shipped,tanya_status_pesanan
+produk defective,komplain_produk
+cara cancel refund,tanya_pengembalian
+kurir ugal-ugalan,komplain_kurir
+diskon member special?,tanya_promosi
+pesanan telat dan barang rusak,tanya_status_pesanan+komplain_produk
+kurir telat dan produk cacat,komplain_kurir+komplain_produk
+cara return dan ada diskon tidak,tanya_pengembalian+tanya_promosi
+status pesanan dan komplain kurir,tanya_status_pesanan+komplain_kurir
+barang rusak mau refund,komplain_produk+tanya_pengembalian
+promo dan gratis ongkir,tanya_promosi+tanya_promosi
+kurir kasar dan paket hilang,komplain_kurir+komplain_kurir
+pesanan belum sampai tapi ada diskon,tanya_status_pesanan+tanya_promosi
+produk cacat minta ganti barang,komplain_produk+tanya_pengembalian
+driver telat dan tidak sopan,komplain_kurir+komplain_kurir
+barang salah ukuran mau return,tanya_pengembalian+komplain_produk
+status order dan tanya promo,tanya_status_pesanan+tanya_promosi
+kurir lambat dan ongkir mahal,komplain_kurir+komplain_kurir
+produk jelek mau refund,komplain_produk+tanya_pengembalian
+pesanan delayed dan kurir tidak respon,tanya_status_pesanan+komplain_kurir
+barang tidak work minta garansi,komplain_produk+tanya_pengembalian
+ada diskon untuk member baru,tanya_promosi+tanya_promosi
+kurir nyasar dan barang rusak,komplain_kurir+komplain_produk
+cara retur dan proses refund,tanya_pengembalian+tanya_pengembalian
+pesanan hilang dan minta ganti,tanya_status_pesanan+tanya_pengembalian
+produk kadaluarsa mau komplain,komplain_produk+komplain_produk
+driver ugal-ugalan dan telat,komplain_kurir+komplain_kurir
+barang beda warna mau tukar,komplain_produk+tanya_pengembalian
+status pengiriman dan komplain,komplain_kurir+tanya_status_pesanan
+promo cashback dan diskon,tanya_promosi+tanya_promosi
+kurir minta duit tambahan,komplain_kurir+komplain_kurir
+produk fake mau lapor,komplain_produk+komplain_produk
+cara cancel dan refund,tanya_pengembalian+tanya_pengembalian
+pesanan stuck dan barang defect,tanya_status_pesanan+komplain_produk
+driver tidak professional,komplain_kurir+komplain_kurir
+barang bekas mau return,komplain_produk+tanya_pengembalian
+ongkir mahal dan kurir lambat,komplain_kurir+komplain_kurir
+produk tidak original komplain,komplain_produk+komplain_produk
+status refund dan tanya promo,tanya_pengembalian+tanya_promosi
+kurir tidak bawa kembalian,komplain_kurir+komplain_kurir
+barang pecah saat datang,komplain_produk+komplain_produk
+pesanan belum dikirim dan tanya diskon,tanya_status_pesanan+tanya_promosi
+driver kasar dan paket rusak,komplain_kurir+komplain_produk
+cara klaim garansi produk,komplain_produk+tanya_pengembalian
+promo member dan cashback,tanya_promosi+tanya_promosi
